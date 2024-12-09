@@ -1,0 +1,71 @@
+body {
+    background-color: lightseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.c3 {
+    display: inline;
+}
+
+#tip {
+    display: block;
+    margin-top: 6px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 2px thistle
+    
+}
+
+#tasto1 {
+    width: 15%;
+    height: 20px;
+}
+
+#tasto2 {
+    width: 15%;
+    height: 20px;
+}
+
+#tasto3 {
+    width: 7%;
+    height: 25px;
+}
+
+#tasto4 {
+    width: 7%;
+    height: 25px;
+}
+
+#a1 {
+    position: relative;
+    right: 70px;
+    text-shadow: 2px 2px 2px thistle
+}
+
+#a2 {
+    position: relative;
+    left: 42px;
+    text-shadow: 2px 2px 2px thistle
+}
+
+.d4 {
+    border: solid 2.2px black;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    }
+
+#ico {
+    position: relative;
+    top: 92px;
+    left: 120px;
+    font-size: 28pt;
+}
+
+

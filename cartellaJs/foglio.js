@@ -118,12 +118,10 @@ const jobs = [
       let ili = document.createElement("li")
       ili.innerText = fun.results[i].title + " " + fun.results[i].location
       lis.appendChild(ili)
-
-      
-    
-    
-    }
+   }
   }
+
+ 
 
 
     

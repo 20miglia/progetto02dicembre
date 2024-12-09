@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cartellaCss/foglio.css">
+    <script  type = "modulo"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script> 
+    <script nomodulo src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
     <title>Document</title>
 </head>
 
 
 
 <body>
-
-    <h1>Algoritmo di Ricerca</h1>
-
-    <input type="text" name="Lavoro" id="tasto1">
-    <input type="text" name="Posizione" id="tasto2">
-    <button type="button" onclick="verifica()" id="tasto3" value="cerca">Cerca</button>
+     
+    <header>
+    <ion-icon id="ico" name="search-circle"></ion-icon>
+    <h1>Job Search</h1>
+    </header>
     
+
+  
+    <h3 id="a1" class="c3">Job</h3>
+    <h3 id="a2" class="c3">Geographical Area</h3>
+
+    <div id="tip">
+    <input type="text" name="Lavoro" id="tasto1" class="d4">
+    <input type="text" name="Posizione" id="tasto2" class="d4">
+    <button type="button" onclick="verifica()" id="tasto3" class="d4" value="cerca">Search</button>
+    </div>
+ 
 
 
     <ul id="lista"></ul>
